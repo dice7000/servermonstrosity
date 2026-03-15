@@ -22,16 +22,14 @@ public class SMEvent {
 
     @Mod.EventBusSubscriber(modid = ServerMonstrosity.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
     public static class ForgeBusEvents {
-        @SubscribeEvent
-        public static void onStartTracking(PlayerEvent.StartTracking event) {
+        @SubscribeEvent public static void onStartTracking(PlayerEvent.StartTracking event) {
             if (event.getTarget() instanceof IHasBossBar mob) {
                 mob.getBossEvent().addPlayer((ServerPlayer) event.getEntity());
                 mob.getBossEvent().setVisible(true);
             }
         }
 
-        @SubscribeEvent
-        public static void onStopTracking(PlayerEvent.StopTracking event) {
+        @SubscribeEvent public static void onStopTracking(PlayerEvent.StopTracking event) {
             if (event.getTarget() instanceof IHasBossBar mob) {
                 mob.getBossEvent().removePlayer((ServerPlayer) event.getEntity());
             }
