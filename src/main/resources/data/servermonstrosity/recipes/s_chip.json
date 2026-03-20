@@ -1,0 +1,25 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category":"misc",
+  "key":{
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "E":{
+      "item":"servermonstrosity:electro_chip"
+    },
+    "R":{
+      "item":"minecraft:redstone"
+    }
+  },
+  "pattern":[
+    "ERE",
+    "ERE",
+    "III"
+  ],
+  "result":{
+    "item":"servermonstrosity:server_chip"
+  },
+
+  "show_notification": true
+}

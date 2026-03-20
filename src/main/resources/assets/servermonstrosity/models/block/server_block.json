@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "servermonstrosity:block/server_block",
+    "down": "servermonstrosity:block/server_block",
+    "up": "servermonstrosity:block/server_block",
+    "north": "servermonstrosity:block/server_block_front",
+    "south": "servermonstrosity:block/server_block",
+    "east": "servermonstrosity:block/server_block",
+    "west": "servermonstrosity:block/server_block"
+  }
+}

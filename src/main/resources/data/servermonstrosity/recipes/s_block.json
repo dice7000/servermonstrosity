@@ -1,0 +1,22 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category":"misc",
+  "key":{
+    "I":{
+      "item":"minecraft:iron_ingot"
+    },
+    "S":{
+      "item":"servermonstrosity:rack_server"
+    }
+  },
+  "pattern":[
+    "ISI",
+    "ISI",
+    "ISI"
+  ],
+  "result":{
+    "item":"servermonstrosity:server_block"
+  },
+
+  "show_notification": true
+}

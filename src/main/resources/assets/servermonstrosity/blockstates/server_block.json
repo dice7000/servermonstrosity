@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "servermonstrosity:block/server_block",
+      "y": 0
+    },
+    "facing=south": {
+      "model": "servermonstrosity:block/server_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "servermonstrosity:block/server_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "servermonstrosity:block/server_block",
+      "y": 90
+    }
+  }
+}
