@@ -1,0 +1,9 @@
+{
+  "item.servermonstrosity.electro_chip": "電子部品",
+  "item.servermonstrosity.server_chip": "サーバーの回路",
+  "item.servermonstrosity.server_part": "サ－バーの部品",
+  "item.servermonstrosity.rack_server": "ラックサーバー",
+  "block.servermonstrosity.server_block": "サーバーブロック",
+
+  "entity.servermonstrosity.server_monolith": "サーバーモノリス"
+}

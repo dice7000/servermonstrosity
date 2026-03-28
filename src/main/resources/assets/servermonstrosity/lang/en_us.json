@@ -1,0 +1,9 @@
+{
+  "item.servermonstrosity.electro_chip": "Electronic chip",
+  "item.servermonstrosity.server_chip": "Server chip",
+  "item.servermonstrosity.server_part": "Server part",
+  "item.servermonstrosity.rack_server": "Rack server",
+  "block.servermonstrosity.server_block": "Server Block",
+
+  "entity.servermonstrosity.server_monolith": "Server Monolith"
+}
